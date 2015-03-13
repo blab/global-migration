@@ -1,0 +1,8 @@
+in.param
+in.trees
+out.rules
+out_*.rules
+out.skylines
+out_*.skylines
+out.stats
+*.mcc

@@ -1,0 +1,71 @@
+# Rakefile to collate data and run BEAST phylogeographic analysis on seasonal influenza viruses
+# This requires sample trees files
+
+# Check version is 1.9 or later
+if RUBY_VERSION < "1.9"
+  raise "Invalid version, Ruby 1.9 or above required."
+end
+
+stems = [	
+		"h3_alt", "h1_alt", "vic_alt", "yam_alt", 
+		]
+
+require 'rake/clean'
+stems.each {|stem|
+	CLEAN.include("#{stem}_geo/in.trees")
+	CLEAN.include("#{stem}_geo/in.param")	
+	CLEAN.include("#{stem}_geo/out*")			
+	CLOBBER.include("#{stem}_geo/#{stem}_geo.xml")
+	CLOBBER.include("#{stem}_geo/figures/*")
+	CLOBBER.include("#{stem}_geo/stats/*")	
+}
+
+desc "Full compile"
+task :default => [:stats, :fsts]
+
+task :stats => stems.map {|stem|
+	"#{stem}_geo/stats/#{stem}_geo_persistence.tsv"
+}
+
+task :fsts => stems.map {|stem|
+	"#{stem}_geo/out_fst.skylines"
+}
+
+desc "Create directories"
+stems.each {|stem|
+	directory "#{stem}_geo"
+}
+
+desc "Create stats directories"
+stems.each {|stem|
+	directory "#{stem}_geo/stats"
+}
+
+desc "Produce persistence stats with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/stats/#{stem}_geo_persistence.tsv" => ["#{stem}_geo/#{stem}_geo.trees", "params/in_stats.param", "#{stem}_geo/in_base.param", "#{stem}_geo/stats"] do
+		# standard analysis of most demes
+		sh "cat #{stem}_geo/in_base.param params/in_stats.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.trees 20 > #{stem}_geo/in.trees"	
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		text = File.read("out.stats")
+		replace = text.gsub(/^persistence_1.+\n/, "")		
+		replace = replace.gsub(/persistence_/, "")
+		File.open("stats/#{stem}_geo_persistence.tsv", "w") {|file| file.puts replace}
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce FST skylines with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_fst.skylines" => ["#{stem}_geo/#{stem}_geo.trees", "params/in_fst.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_fst.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.trees 20 > #{stem}_geo/in.trees"			
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.skylines out_fst.skylines"
+		Dir.chdir ".."		
+	end
+}
+

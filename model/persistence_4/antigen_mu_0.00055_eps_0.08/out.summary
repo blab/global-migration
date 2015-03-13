@@ -1,0 +1,15 @@
+parameter	full
+endDate	20.0003
+diversity	3.9852
+tmrca	3.6107
+netau	Infinity
+serialInterval	0.01380
+antigenicDiversity	0.6012
+N	45000000.0000
+S	44957489.0949
+I	42510.9051
+R	0.0000
+cases	59531.1026
+sideBranchRate	0.2229
+trunkRate	0.2102
+mkRatio	0.9430

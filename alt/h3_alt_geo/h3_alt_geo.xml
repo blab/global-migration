@@ -1,0 +1,6044 @@
+<?xml version="1.0" standalone="yes"?>
+<beast>	
+	<taxa id="taxa">
+		<taxon id="A/Waikato/70/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/22/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/103/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/72/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Whanganui/417/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/51/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/16/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Christchurch/13/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Christchurch/90/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/26/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/22/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Christchurch/89/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/208/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/105/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/57/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/201/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/21/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/50/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/44/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/35/2004">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Argentina/445/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/402/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/3743/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/389/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Peru/8307/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/3888/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/334/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Santiago/6421/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/146/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/3689/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/426/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/405/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/503/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/3797/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Uruguay/0710/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/335/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/305/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/449/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Uruguay/0723/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/3726/2007">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Quebec/RV1069/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Vermont/22/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Washington/55/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New-York/67/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Idaho/04/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/North-Carolina/14/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Washington/54/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Maryland/02/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Pennsylvania/02/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Mississippi/AF2159/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Massachusetts/01/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/05/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Alaska/29/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/South-Carolina/07/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/03/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Virginia/02/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ohio/17/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Georgia/07/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Arizona/08/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Wisconsin/15/2009">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Sydney/DD2_02/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/TOWNSVILLE/106/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/VICTORIA/650/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/SOUTH-AUCKLAND/15/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/BRISBANE/218/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/CHRISTCHURCH/49/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Sydney/DD2_01/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/220/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/TOWNSVILLE/104/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/FIJI/52/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/TOWNSVILLE/98/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/10/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/PERTH/501/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/TOWNSVILLE/105/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/TOWNSVILLE/102/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/BRISBANE/217/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/VICTORIA/1034/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/PERTH/56/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/TOWNSVILLE/86/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/VICTORIA/8/2010">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Sri-Lanka/22/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/3017/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/7882/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/2009/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/9890/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/7881/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/7886/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Sri-Lanka/14/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/089064/030708">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/0810434/020708">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/089060/300608">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/089062/010708">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/0810433/020708">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/0810436/020708">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/0810437/090708">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/089059/230608">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/089056/190608">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/089063/010708">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Vellore/094402/061008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkata/1537/2008">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Colorado/3005/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/3000/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Washington/2998/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Washington/2997/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ohio/2987/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/AF2822/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/3010/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Washington/3014/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Nebraska/AF2854/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Nevada/AF2841/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/2996/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Illinois/AF2824/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/AF2823/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Washington/2976/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/AF2774/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Illinois/AF2861/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Nevada/3001/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/2999/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/AF2868/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ohio/2994/2012">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Canterbury/140/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/10/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/34/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/105/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/West_Coast/32/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/14/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/15/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Auckland/603/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/17/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/18/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Auckland/602/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Auckland/604/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/06/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/19/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/15/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/12/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/17/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/11/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/20/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/13/2001">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="BRAZIL/1759/2004">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R26-04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="PERU/1296/2004">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BR-IAL-445">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="ARGENTINA/126/2004">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="PY-697">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BR-IAL-615">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="UY-CA04-3173">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Parana/313/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RioGdoSul/211/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RioGdoSul/212/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RioGdoSul/406/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/26/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Parana/308/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RioGdeSul/213/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/17/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RioGdoSul/417/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Parana/291/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Parana/306/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/StaCatarina/379/04">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Georgia/NHRC0001/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/NHRC0002/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/928/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/South_Carolina/NHRC0001/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/933/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0001/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ohio/06/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/05/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/5/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/938/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/4/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Wyoming/02/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ohio/07/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/NHRC0001/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Wisconsin/45/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Illinois/NHRC0001/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Oklahoma/309/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/7/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Illinois/NHRC0002/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Missouri/NHRC0001/2006">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/India/K0615330/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pandharpur/20055208/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="BA-167113">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="BA-141817-ORIGINAL">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pandharpur/20055172/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="II-511132">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Sri_Lanka/146/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/D0612416/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/D0512580/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/P057475/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/D058687/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/P055208/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/D0635419/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/D0512584/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/P05142/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/D058690/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/P055172/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/C058671/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/P059124/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/C0511132/2005">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/5/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/PERU/G194/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/3759/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/3758/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/822/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/CHILE/5823/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/CHILE/5109/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/13/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/44/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/25/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/10/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/mc5/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/79214/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/302/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chile/6416/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/79285/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/695/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/311/2001">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/471/01">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/470/01">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/New_York/19/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0006/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/South_Carolina/NHRC0002/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/473/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0002/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/22/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/271/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/67/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/35/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/58/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/48/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/63/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/476/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/477/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/192/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/61A/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/8/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/21/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/214/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/56/2003">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/India/25502/2002">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/025502/160802">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/025506/160802">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/C3_45/2002">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/C3_58/2002">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/New_York/434/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/431/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/174/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/162/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/176/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/156/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/175/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/169/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/173/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/160/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/436/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/437/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/165/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/435/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/152/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/432/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/182/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/429/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Missouri/NHRC0001/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/168/2000">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Finland/9/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Aragon/RR-3438/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/293/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/377/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Poitiers/1341/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/695/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Stockholm/25/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/652/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Paris/817/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Norway/1/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/699/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Paris/288/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/168/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/669/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Lisboa/34/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Firenze/24/08">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Switzerland/1397477/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/687/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Paris/777/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Baden-Wuerttemburg/196/2008">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Kastoria/45/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Alexandroupolis/16/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Alexandroupolis/118/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Thessaloniki/43/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/211557/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/5134761/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/472/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/55281/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/5070214/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/502689/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/512060/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/55243/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/205390/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Scotland/60380627/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/208920/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/206418/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/208005/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="BARCELONA/104/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="FINLAND/618/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/212182/2005">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Philippines/5/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/0941/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Laos/256/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/419/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/2191/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/PHILIPPINES/3322/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/2153/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/534/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Tak/527/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/132/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/N199/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/01/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Cambodia/6735/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Surat-Thani/559/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/1770/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/409/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/95/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/72/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/312/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/0316/2009">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Netherlands/063/2011">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/22/2011">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/21/2011">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Genoa/1/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/120/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="NETHERLANDS/368/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="PARIS/207/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/1/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="LYON/19989/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="LATVIA/13794/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Oslo/398/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/460/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/26/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Stockholm/27/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Stockholm/26/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/02/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Oslo/669/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Oslo/5811/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="MALMO/3/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/13/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/08/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="HANNOVER/8/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="PRAGUE/3/2002">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/184/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/611/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/97/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/71/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/105/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin/Nankai110/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin-Nankai/1211/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Guangdong/578/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/70120/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin/Hedong112/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin/Hongqiao148/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/23/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Liaoning-Tiedong/14/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/420/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/471/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Guangdong/314/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/52/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin/Jinnan166/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Shanghai/Pudongxin237/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Fujian-Siming/1242/2008">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Malaysia/1676558/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Cambodia/Q210/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Cambodia/Q342/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/33827/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/HCM52/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="PHILIPPINES/3743/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/33464/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/34015/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/33817/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/1657167/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="THAILAND/697/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/1681079/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/1666666/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="TH-3244-06">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="THAILAND/809/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/1674395/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/1665090/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="THAILAND/559/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="PHILIPPINES/1124/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="THAILAND/709/2006">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Daegu/4165/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Busan/4297/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/765/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Seoul/4295/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Incheon/4274/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/WRAIR1059P/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/7719/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/TOYAMA/123/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Chungbuk/4137/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/7723/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/7858/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Cheongju/H412/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Cheongju/H471/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Cheongju/H397/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF05/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Seoul/4436/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/South_Korea/AF1159/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF1459/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF1803/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF1589/2008">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2707/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2709/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2772/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2708/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Osaka/10K359/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Hokkaido/10H060/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Gunma/10G041/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/10N035/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Kyoto/10K464/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/10N090/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/10N080/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Hyogo/10K034/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Osaka/10K357/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/10N053/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Gunma/10G001/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Hokkaido/10H039/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/10F271/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/10N033/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Kyoto/10K468/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Gunma/10G009/2011">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU67/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU64/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU102/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU78/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK5567/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK8333/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU110/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU79/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU47/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU63/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK42644/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK7546/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK10591/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK6898/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU66/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU108/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU44/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU74/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK7670/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU101/2005">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Singapore/NHRC0009/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="PHILIPPINES/621/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/NHRC0002/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/NHRC0005/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/NHRC0010/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="PHILIPPINES/825/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/NHRC0006/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN186/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/NHRC0001/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Hanoi/BM767/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/25957/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/26227/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/25750/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/26468/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="MALAYSIA/768/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/26571/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Hanoi/BM766/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/HaNoi/HN695/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/NHRC0004/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/25920/2003">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Morioka/35/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/N1269/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/N1220/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Fukuoka/F489/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/N01/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/8/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/15/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/N1289/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/N07/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Fukuoka/F488/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Fukuoka/F484/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Jeonbuk/445/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="ULSAN/198/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="NAGASAKI/36/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="KYOTO/19/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="SHIMANE/15/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="NAGANO/1248/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="OKINAWA/18/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="SHIMANE/3/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="CHU/2-524/2005">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="CHONGQING-WANZHOU/182/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HUNAN-HENGYANG-YANFENG/165/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HEILONGJIANG-QITAIHE-TAOSHAN/147/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HUNAN-LOUDI-LOUXING/16/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="LIAONING-LIAOYANG-TIEDONG/1153/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="SHANGHAI-JINSHAN/13/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HEBEI-SHIJIAZHUANG-YUHUA/133/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="TIANJIN-HEDONG/195/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="TIANJIN-JINNAN/144/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HEILONGJIANG-HEGANG-XIANGYANG/1125/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="SHANGHAI-LUWAN/188/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="TIANJIN-HEXI/15/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="BEIJING-XICHENG/1293/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="BEIJING-HUAIROU/1155/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="BEIJING-XICHENG/1409/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="LIAONING-FUXIN-HAIZHOU/1118/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HUNAN-CHENZHOU-BEIHU/1143/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HEILONGJIANG-HARBIN-NANGANG/124/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="JILIN-JILIN-CHUANYING/1156/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Guangdong/94/2011">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21957/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK5296/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Sichuan/7/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK5250/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK33047/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK33079/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK23162/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK23111/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21742/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21582/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21713/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Fujian/353/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK24054/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK6210/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK53123/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK23113/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13249/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13278/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK33106/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hunan/439/2002">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/El-Salvador/590/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/6453/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Managua/3/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El-Salvador/579/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Venezuela/8241/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El-Salvador/428/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/New-Mexico/02/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Martinique/12/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/7562/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El-Salvador/507/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Venezuela/9602/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Dominican-Republic/2896/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guyane/13/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/New-Mexico/01/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1136/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Costa-Rica/4082/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/3701/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/5560/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guyane/32/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/2222/2007">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/2/2000">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/178/2000">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/62/2000">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/202/2000">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/94/2000">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/27/2000">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Morioka/34/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Morioka/52/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/40/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/45/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/47/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/31/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/16/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/EHIME/47/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Chungnam/271/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="JA-RSP-02-910">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/770/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/FUKUOKA/15/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SAPPORO/32/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/HIROSHIMA/66/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/HYOGO/3/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/KUMAMOTO/9/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/KOCHI/3/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/KOCHI/160/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="CHEONNAM/432/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/AKITA/69/2002">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="ECUADOR/1968/2004">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="FG-00220012">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Kenya/2234/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1436/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Manhean/03/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/730/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/2282/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1668/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1477/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1431/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1598/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1599/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1428/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1544/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Egypt/0809/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/2297/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1589/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Uganda/MUWRP_015/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Uganda/MUWRP_020/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Uganda/MUWRP_002/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Uganda/MUWRP_010/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Uganda/MUWRP_011/2008">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Colombia/6722/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/4079/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Puerto-Rico/01/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/6705/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guadeloupe/202/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guadeloupe/201/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/4268/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Costa-Rica/6696/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/754/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/4391/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Puerto-Rico/02/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Dominican-Republic/4389/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El-Salvador/635/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/591/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Managua/410.02/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guadeloupe/129/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/690/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El-Salvador/1103/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El-Salvador/636/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guadeloupe/200/2010">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Casablanca/61/2011">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Casablanca/57/2011">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/ECUADOR/2635/2001">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/COLOMBIA/3026/2001">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="JOHANNESBURG/485/2005">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="EG-2005904864">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/122/05">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/301/05">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Auckland/17/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/24/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Sydney/17/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Auckland/10/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Sydney/6/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Christchurch/05/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/201/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/10/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/02/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Tasmania/4/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/2/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/16/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/5/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/12/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Christchurch/19/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/31/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Darwin/1/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/13/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/06/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Tasmania/1/2008">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/2425/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/439/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/0484/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/0483/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/SRI-LANKA/9/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bhutan/154/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/483/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/5014/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/2751/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bhutan/151/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/398/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/7772/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/3012/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/2363/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/2710/2009">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Delhi/0942737/060809">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/0914856/040609">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/VD/0916977/120809">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/VD/0913594/210709">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/0914852/020609">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Canterbury/248/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/66/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/65/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/16/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/4/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/204/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="SOUTHAUSTRALIA/9/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Australia/NHRC0005/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/253/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/3/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/186/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Otago/02/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Australia/NHRC0008/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/3/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/67/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Auckland/621/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Otago/4/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/260/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/256/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/74/2005">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brazil/1619/2008">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/1623/2008">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="NP-HC90997-ORIGINAL">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NP-HC91445-ORIGINAL">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NP-HC91440-ORIGINAL">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/921/2006">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Delhi/0612424/300106">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="BANGLADESH/1999/2006">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Chennai/0634985/141106">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/072142/070706">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Delhi/0635428/090606">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Chennai/0634983/091106">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/0614474/150606">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/063078/040306">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Chennai/0634982/091106">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Delhi/0635422/140106">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Dibrugarh/0622569/270606">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Delhi/0635427/100506">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Kolkutta/075440/031106">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Delhi/0612426/010206">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Delhi/0612425/300106">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/0618457/240706">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/30/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Auckland/608/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/SYDNEY/306/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Dunedin/10/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/47/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/60/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Dunedin/14/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Dunedin/3/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/23/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/52/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/32/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/51/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/31/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/80/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/29/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/53/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/23/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/24/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/CHRISTCHURCH/28/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/South_Canterbury/37/2002">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="AG-R570-05">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-3065">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BRAZIL/1742/2005">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="UY-05-39082">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R56-05">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-05-7099">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BR-IAL-1499">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R113-05">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-05-6898">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BR-IAL-266">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R55-05">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/BR_IAL_2302/2005">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Peru/166/2005">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/BR_IAL2353_0505_04099_ORIGINAL/2005">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Cusco/FSC807/2005">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/BR_IAL_2314/2005">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Cusco/FSC799/2005">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/British-Columbia/1287/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Alaska/06/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Pennsylvania/04/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/North-Carolina/06/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Wisconsin/26/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/67/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Georgia/07/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Missouri/02/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Minnesota/09/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Vermont/UR06_0512/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Delaware/11/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/15/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Minnesota/18/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New-Jersey/14/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Michigan/07/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/30/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Alaska/05/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Virginia/01/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Arizona/09/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Washington/20/2007">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Iowa/07/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/04/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Indiana/07/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Arkansas/01/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/05/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/South-Carolina/11/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Wisconsin/23/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New-Jersey/02/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Montana/04/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/British-Columbia/RV29/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Maryland/07/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Tennessee/03/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Wisconsin/11/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Florida/19/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Minnesota/17/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/27/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Arizona/11/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Virginia/03/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Pennsylvania/41/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/21/2010">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Brazil/2458/2002">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/1727/2002">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Peru/3029/2002">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Ceara/177/2002">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/2030/2002">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/5/2002">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/1732/2002">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/StaCatarina/327/02">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RioGdoSul/205/02">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/StaCatarina/339/02">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/StaCatarina/311/02">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/EspiritoSanto/88/02">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/New_York/466/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/351/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/374/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/358/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/69/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="VT-05VIR066">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/356/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/386/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Missouri/NHRC0002/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/387/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/499/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/52/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/498/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Georgia/NHRC0001/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/379/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/467/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/360/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/377/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/472/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/123/2004">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Pune/038254/220803">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/031741/030303">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/038072/220803">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/032699/110403">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="BA-1164729">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_12/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_21/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_16/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_19/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_13/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_17/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_15/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_23/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_24/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_27/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_22/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_18/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/C5_25/2003">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/New_York/77/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/82/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/80/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/84/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/85/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/273/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/124/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/401/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/131/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/402/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/94/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/71/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/83/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/301/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/127/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/NEW-YORK/46/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/FLORIDA/6/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/ARIZONA/9/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/VERMONT/1/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/TEXAS/9/2001">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/INDIA/3783/2000">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/INDIA/2701/2000">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Netherlands/761/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Norway/4916/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Aragon/RR-3442/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/69/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Geneva/1570509/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Albania/250/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Paris/1751/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Paris/1753/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Moldova/167/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Norway/1141/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Geneva/1491091/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Donetsk/248/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Ukraine/96/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Lyon/1715/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Moldova/169/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Bordeaux/1942/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Ukraine/110/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Kiev/67/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Thessaloniki/16/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Wallonia/G827/2009">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Thessaloniki/90/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Scotland/60380634/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/61007/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/602213/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/646836/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/363/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/556/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/560/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/613446/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/60384/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/558/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/42/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/61762/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/60385/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/557/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="LYON/1324/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="LYON/1359/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="MARSEILLE/1215/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="LYON/1292/2006">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Scotland/4/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2158/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Shizuoka/736/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/5991/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/26/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/51/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/WRAIR1038P/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/WRAIR1140P/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/WRAIR1037P/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/South_Korea/WRAIR1171P/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/403/2009">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/England/592/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/76036/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Norway/88/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/76359/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/213/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/525/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/470/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/584/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="BAYERN/1/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Scotland/81/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="IRELAND/1215/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/79015/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="RO-802-03">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/552/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="THURINGEN/36/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/76165/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="LATVIA/2754/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/442/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/532/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="DENMARK/9/2003">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_726_V10/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Qingdao/1167/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_672_V10/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/34430/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Qingdao/1231/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Shanghai-Nanhui/190/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Shanghai-Nanhui/1208/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_736_V10/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_750_V10/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin-Tanggu/1193/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_739_V10/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_747_V22/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Qingdao/2181/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_737_V10/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/40/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/H090_714_V10/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Qingdao/1046/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Qingdao/2144/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Qingdao/505/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Qingdao/2199/2009">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Thailand/271/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/786/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Cambodia/0384/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/1646/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/1641/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/66/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/284/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/677/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Cambodia/0344/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/5305/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/71/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/1199/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Cambodia/0356/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/359/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/24/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/65/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/23/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/19/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Cambodia/0266/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/521/2007">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Japan/3004/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2836/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2777/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/2981/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/2970/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2808/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2818/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2849/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2778/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2850/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2835/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2813/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2779/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/3021/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2782/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/3018/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2784/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2827/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/AF2846/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2781/2012">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Morioka/17/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Morioka/18/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Morioka/22/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/F90/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Nagasaki/N44/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/13/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/F67/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/S709/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Yamagata/K22/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Yamagata/K32/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Yamagata/K16/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/S707/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Fukuoka/F52/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Fukuoka/F19/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/S521/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/S524/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Fukuoka/F220/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/S523/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/S127/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Miyagi/S129/2006">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP4453/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/617/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Nonthaburi/342/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/630/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/616/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/225/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/911/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/NOTHABURI/488/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/04/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Laos/896/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/CAMBODIA/1/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP3268/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/516/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/521/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP3269/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SURAT-THANI/269/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/TT384/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/PHILIPPINES/5229/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/512/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP4180/2010">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BULGARIA/874/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/ROMANIA/427/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/BULGARIA/113/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/3/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/KIEV/633/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Oslo/6391/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/ROMANIA/175/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/ROMANIA/387/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/France/17/00">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/207/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/37/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Oslo/5381/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/204/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/205/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/202/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Denmark/203/2000">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/France/32/00">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/France/9/00">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/France/40/00">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/France/20/00">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK65241/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK66001/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK45130/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK63957/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK53004/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK69904/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK53907/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK64082/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK68792/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK60052/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK53005/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK53798/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Jilin_Chaoyang/1198/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/315/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/784/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="BEIJING/47/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="TAIWAN/760/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HUBEIWUJIAGANG/1121/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="JILINNANGUAN/1165/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="HONG-KONG/3056/2006">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hanoi/HN30135/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="MALAYSIA/452/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/26682/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/NHRC0002/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/HaNoi/HN30136/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/29997/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="MALAYSIA/1344/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/NHRC0001/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="BANGKOK/1563/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/29890/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/26989/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/28114/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="MALAYSIA/661/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="KAMPHAENGPHET/3524/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Hanoi/HN30240/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/29197/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/NHRC0003/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/HaNoi/HN30110/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/NamDinh/HN30119/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/29930/2004">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK50895/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK70435/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13339/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK74438/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13434/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13483/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK5627/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK6262/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13299/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK52467/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK5316/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK6383/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK51380/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK5723/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK51353/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK52923/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK52011/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK6377/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK74457/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin/327/2003">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Costa-Rica/7172/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/New-Mexico/02/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/494/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/545/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/680/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/499/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/UASLP_014/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/UASLP_011/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/UASLP_010/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/UASLP_012/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/AF1845/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/AF1847/2008">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/480/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/86/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/60/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/PHILIPPINES/78890/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/504/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/THAILAND/80891/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/115/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TAK/214/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/54/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/328/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/28/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/VN/1249/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/226/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/224/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/VN/1293/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/41/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/INDONESIA/8338/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/NONG-KHAI/475/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/45/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/161/2001">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Okinawa/28/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="CHIBA/113/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="JAPAN/727/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="SAPPORO/193/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="OSAKA/25/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="SENDAI/126/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="KOREA/124/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="NARA/64/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="JA-RSP-03-493">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="HYOGO/113/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/51/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="FUKUSHIMA/173/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="KANAGAWA/88/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="SHIZUOKA/383/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/17/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/15/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/49/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/10/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/5/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="TOCHIGI/55/2003">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Managua/38_11/2011">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK26907/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK22072/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK22087/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK28040/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK20294/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK22162/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK20173/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK28038/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK26980/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21128/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK20300/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK27183/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK20292/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK26969/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK20169/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK22078/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK52247/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK27157/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK27374/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21250/2000">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="MX-2264">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="VE-246971-ORIGINAL">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-931">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="VE-254155">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Madagascar/424/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Ethiopia/35/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Nigeria/01/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Mauritius/487/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Uganda/548/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1270/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Dakar/WRAIR0011T/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/4408/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/4516/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Tunisia/723/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/2817/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Madagascar/4286/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Cape-Town/295/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Nigeria/946/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Ghana/FS-2240/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Cameroon/LEID/11/09/004/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Madagascar/3615/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Cameroon/473/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/JOHANNESBURG/1176/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Dakar/002/2009">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/KOREA/2623/2000">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/YOKOHAMA/111/2000">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/HIROSHIMA/253/2000">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/KOREA/320/2000">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/NIIGATA/2743/2000">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/HIROSHIMA/182/2000">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="JOHANNESBURG/503/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="ALGERIA/G138/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="MADAGASCAR/2761/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Nairobi/2041/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Nairobi/5842/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF5626/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="ALGERIA/453/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF5627/2006">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/BRISBANE/54/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/209/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/PERTH/107/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Sydney/616/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/WESTERN-SEPIK/20/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/16/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/BRISBANE/100/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/500/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Sydney/3/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Australia/34/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/CANBERRA/20/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/PERTH/324/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/673/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/15/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/BRISBANE/66/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Australia/30/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/502/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canberra/18/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Sydney/1/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/VICTORIA/244/2009">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="EG-2003901386">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="EG-2002923226">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="EG-2003900525">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="EG-2003917221">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/1/03">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Pretoria/16/03">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/10/03">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/28/03">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Middleburg/41/03">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/50/03">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Peru/9310/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/28370/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/27895/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/28306/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/28379/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/27891/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/0610/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chile/8196/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Paraguay/2394/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/28372/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/01/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chile/6096/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/28367/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/0791/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bolivia/317/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Paraguay/2395/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chile/5845/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chile/6927/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/27893/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Peru/CIS1578/2010">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/South_Africa/96/2000">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/South_Africa/57/2000">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/South_Africa/40/2000">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Argentina/7646/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Paraguay/52/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/884/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minas_Gerais/11404/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/933/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minas_Gerais/10998/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/1814/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Rio_de_Janeiro/1621/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minas_Gerais/11405/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minas_Gerais/11401/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minas_Gerais/10995/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Argentina/15/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bolivia/2675/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bolivia/2948/2009">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brisbane/233/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/38/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/9/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Christchurch/19/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/519/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/503/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/520/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/11/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/303/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="BRISBANE/150/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="SOUTHAUSTRALIA/3/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/58/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/33/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="WELLINGTON/5/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="WAIKATO/49/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="AUCKLAND/78/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="BRISBANE/35/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="BRISBANE/256/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="BRISBANE/3/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="OTAGO/1/2006">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="BR-1945">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="SANTIAGO/9491/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R1-06">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="PE-FLU-3355">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="SANTIAGO/8248/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="PE-5107-ORIGINAL">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R631-06">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-3509">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R624-06">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="PE-5102-ORIGINAL">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chanchamayo/FSJ1176/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Maldonado/FLU3591/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chanchamayo/FLU3803/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Lima/FLU3668/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Lima/FLU3784/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/BR_1898_ORIGINAL/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chanchamayo/FSJ1193/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Lima/FLU3728/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Iquitos/FLU3615/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Chanchamayo/FSJ1184/2006">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minnesota/37/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Louisiana/04/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New-York/08/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Georgia/02/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/06/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Massachusetts/13/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Minnesota/36/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/01/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Florida/10/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Colorado/15/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Indiana/02/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/12/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Mississippi/05/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Tennessee/04/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New-Jersey/15/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Wisconsin/03/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/13/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Montana/02/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Arkansas/04/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Maryland/03/2008">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/4699/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/9745/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/30376/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/1695/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/AF1082/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/AF1106/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Sri_Lanka/23/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/076178/180607">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/076064/110607">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/K0713778/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/0715484/021107">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Vellore/0713788/300107">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Vellore/0713793/140607">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/076176/180607">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/N075663/2007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Vellore/0713786/200107">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Vellore/0713789/310107">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Andaman/071559/021107">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/076175/180607">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/0713435/051007">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Canterbury/430/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/435/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/122/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/40/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Australia/NHRC0003/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/391/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/439/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/411/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/33/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/401/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Australia/NHRC0008/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Western_Australia/39/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/423/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/31/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/443/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/34/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/91/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/39/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/156/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/49/2003">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="CI-03-7379">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-03-8266-ORIGINAL">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-03-8299">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BL-324-02">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R517-03">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BR-IAL1544">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-2289">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="BR-1609">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="UY-PA03-4">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-03-8806">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-03-6267">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="AG-R809-03">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-03-6421">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="CI-03-7985">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/346/03">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/99/03">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/98/03">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/107/03">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0004/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/918/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/NHRC0001/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/464/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0009/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/913/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0005/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_Jersey/NHRC0001/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0003/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/463/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/359/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/394/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/191/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/357/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/462/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/376/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0007/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Texas/NHRC0002/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Missouri/NHRC0001/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/390/2005">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/India/D0612410/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/D057066/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/C053375/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/C058666/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/C058665/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1646/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1680/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1702/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1660/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1678/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1675/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1659/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="NEPAL/1670/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/1713/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/1650/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/1729/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/1717/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/1723/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/1664/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nepal/1703/2004">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Texas/NHRC0001/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA12/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA86/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA42/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA55/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA83/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA10/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA68/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA75/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA67/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA32/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ontario/016/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ontario/024/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ontario/015/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Ontario/017/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA15/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA11/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA77/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Boston/DOA71/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/California/NHRC0004/2011">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/Canterbury/61/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/103/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/1/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/SYDNEY/213/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/75/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/BRISBANE/3/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/SOUTH-AUSTRALIA/1/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/21/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/38/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Waikato/4/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Dunedin/3/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/5/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Wellington/30/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/87/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/BRISBANE/10/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/92/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Canterbury/67/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Queensland/2/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/SYDNEY/201/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/PERTH/213/2000">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/3161/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/SRI-LANKA/3/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/3489/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/5004/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/8004/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/SRI-LANKA/9/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/SRI-LANKA/7/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/3260/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/3254/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Bangladesh/2012/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/India/3041/2010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/1033310/181010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/KL/1053114/150710">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nanded/190809/040810">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/1025246/300810">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/1019850/050810">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Latur/1020759/090810">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/1033404/181010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Nashik/1034078/251010">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Pune/1019858/060810">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/Georgia/NHRC0001/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/C4/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/276/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/100/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/81/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/132/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/108/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/76/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/403/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/104/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/107/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/109/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/117/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/404/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/406/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/135/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/106/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/405/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/115/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/New_York/118/2002">
+			<attr name="location">USACanada</attr>
+		</taxon>
+		<taxon id="A/NEPAL/g-2079/2001">
+			<attr name="location">India</attr>
+		</taxon>
+		<taxon id="A/ARGENTINA/5995/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/18a/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/SANTIAGO/5628/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/PERU/5937/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/694/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/991/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/10/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/SANTIAGO/6774/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/718/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/4b/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/BRAZIL/2c/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/CHILE/5299/2000">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/RiodeJaneiro/28/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/EspiritoSanto/128/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/015/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/012/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/008/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/010/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/024/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Brazil/009/00">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minsk/137/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Evros/17/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/69/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Thessaloniki/40/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/422/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/706649/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Ivacevichi/115/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Dnipropetrovsk/324/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Lyon/22/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Dnipropetrovsk/429/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/348/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/749411/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Lyon/27/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/79/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/359/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Hungary/AF1072/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/174/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/70/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/184/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/470/2007">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Singapore/23/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Hue/H207/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippinese/3967/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/1713/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/562/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/22/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/619/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/605/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/508/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/981/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/3803/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/860/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/998/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/944/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/356/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Myanmar/M156/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/29/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Vietnam/214/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/21/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/DaNang/DN434/2008">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Norway/1330/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Italy/540/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Bremen/1/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Geneva/4149722/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Galati/47519/2011">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/H3N2Genoa/01/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Rheinland-Pfalz/7/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Brandenburg/01/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Belgrade/WRAIR2379N/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Hessen/5/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Bretagne/2248/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Stockholm/1/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Baleares/RR6848/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Lisboa/SU17+/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/34/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/4820166/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/3940462/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Stockholm/4/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Peloponnese/4043/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/270/2010">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/138051/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/446040/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/51/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/49/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/46/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/4414681/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/47/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/5014715/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="POITIERS/719/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/136353/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/141157/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/144219/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/137814/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/138263/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/138808/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="FINLAND/487/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/140481/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="SWITZERLAND/5732/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/England/53/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Austria/135794/2004">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN381/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Hanoi/TB285/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN346/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN367/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN348/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN403/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN335/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/32133/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/HaNoi/ISBM16/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/HaNoi/Q427/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN363/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/HaNoi/Q372/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/31998/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/31944/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/32226/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/33386/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN393/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN388/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN410/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/TayNguyen/TN332/2005">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Gyeongnam/4506/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/7626/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Chungnam/1463/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/688/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/7814/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/122/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Japan/7743/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Cheongju/H380/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Cheongju/H393/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/11/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/1/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/17/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/7/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Aichi/8/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/101/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/12/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/102/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Jeonbuk/1657/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Daejeon/2419/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Chungnam/1902/2007">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1814/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/TT816/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/TT305/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1490/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1635/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/TT849/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1713/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP5/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1561/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1297/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP125/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1797/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP380/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1215/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/TT717/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/TT481/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP1536/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/GP185/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/EN122/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Singapore/TT203/2011">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Netherlands/126/2001">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/118/2001">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Netherlands/124/2001">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/LYON/1407/2001">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/BULGARIA/28/2001">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Cordoba/1007333/01">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Spain/C2_1/2001">
+			<attr name="location">Europe</attr>
+		</taxon>
+		<taxon id="A/Hebei/Qiaodong51/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Jilin/Nanguan112/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Jiangsu/Xuzhougulou149/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin/Jinnan15/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Gansu/Baiyin39/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Fujian/Gulou1713/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/4758/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Chongqing/Yuzhong169/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/2657/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Jilin/Chaoyang1125/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/707/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hunan/Yuetang35/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hunan/Furong13/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Jilin/Chaoyang1124/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hebei/Yunhe33/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/825/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/2571/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/760/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/4768/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hunan/Furong1221/2007">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Mexico/2779/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Colombia/7158/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Costa-Rica/5179/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Costa-Rica/5023/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Puerto-Rico/46/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Cayman-Islands/9266/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/5997/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Puerto-Rico/25/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Puerto-Rico/18/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/5824/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Dominican-Republic/988/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/2426/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Colombia/6123/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/2445/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/56/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/1066/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Dominican-Republic/3668/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/7880/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/5565/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Mexico/5216/2009">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Thailand/Siriraj_06/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Malaysia/23606/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/162496/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/PHILIPPINES/16105/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Philippines/160283/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Thailand/128400/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/INDONESIA/3277/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/2/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/109/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/PHILIPPINES/472/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/16/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SONGKHLA/107/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Hanoi/190/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/190/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/7/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/247/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/MALAYSIA/145/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/SINGAPORE/29/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/BANGKOK/223/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/MALAYSIA/232/2002">
+			<attr name="location">SoutheastAsia</attr>
+		</taxon>
+		<taxon id="A/Okinawa/22/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/2/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Chungbuk/1927/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="OKAYAMA/52/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Okinawa/9/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="AOMORI/43/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="EHIME/4/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="KUMAMOTO/36/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="HIROSHIMA/39/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="AOMORI/16/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="FUKUSHIMA/147/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="KOBE/189/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="AICHI/181/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="KITAKYUSHU/2/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="CHEJU/1845/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="SAPPORO/258/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="HIROSHIMA/14/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="NIIGATA/528/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="IWATE/3/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="YOKOHAMA/24/2004">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/3615/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Shanghai-Luwan/1541/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Nanjing/1654/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Guangdong/441/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Taiwan/851/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Beijing-Xicheng/12611/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Jiangxi-Donghu/1900/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="BEIJING-CHAOYANG/158/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hunan-Yuhua/11209/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="SHANGHAI-PUDONG-XIN/1911/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Nanjing/1655/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Shanghai-Luwan/1573/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/3685/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/1736/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="TIANJIN-NANKAI/1912/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Tianjin-Nankai/1687/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Shantou/546/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/6882/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="CHONGQING-YUZHONG/335/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong-Kong/1775/2010">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Deajeon/2943/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/1148/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Osaka/72/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Yokohama/96/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/1147/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/1150/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/1143/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Niigata/1144/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2686/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Korea/AF2706/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SHIZUOKA/29/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SHIMANE/57/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/HOKKAIDO/19416/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/YAMANASHI/195/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/KANAGAWA/79/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SAKAI/36/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/HIROSHIMA/54/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/MIYAZAKI/27/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/FUKUSHIMA/129/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SHIMANE/69/2010">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU8/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU18/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU28/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU25/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU36/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU9/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK35013/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU30/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK22567/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK52390/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU39/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU29/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK33851/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU88/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK33894/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU4/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU123/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU38/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU91/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/HKU121/2004">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Puerto_Rico/AF2812/2012">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/PUSAN/66/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/OKINAWA/207/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/FUKUSHIMA/180/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/HIROSHIMA-C/1/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/NARA/3/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/OSAKA/1803/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SENDAI/161/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/GUNMA/178/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SHIGA/2/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/KOCHI/499/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/OSAKA/68/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/SHIMANE/133/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/OSAKA/125/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Busan/44/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/YAMAGATA/592/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Daegu/24/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Jochiwon/04/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Daegu/58/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Busan/71/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Daegu/56/2001">
+			<attr name="location">JapanKorea</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK22888/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK50080/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21421/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK33316/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13658/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK22644/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13172/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21226/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21675/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK24882/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK51424/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13048/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK33406/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK13510/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK24985/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK24749/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK24825/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK51490/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21733/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Hong_Kong/CUHK21932/2001">
+			<attr name="location">China</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1071/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El_Salvador/AF1041/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1070/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/El_Salvador/AF1042/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="CL-6928">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MEXICO/2519/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="GUYANE/28/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/3112/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1068/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Guatemala/GT_232/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1066/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1064/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1065/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Honduras/AF1067/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="GUYANE/8/2006">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Yucatan/844/2003">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Yucatan/ME6057/2003">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/New_Mexico/23/2003">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-2656">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="CL-4145">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-2663">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-503">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-1066">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="JM-5524-03">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-325">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-736">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="MX-102">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/New_Mexico/17/2003">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Kenya/242/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/130/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Uganda/46/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Cameroon/57/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF1056/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF1057/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF1058/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF1055/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Tunisia/1851/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Alupe/5875/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF5618/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF5718/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF5622/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF5625/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF5617/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/AF4041/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/2444/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Cape_Town/97/2007">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Sergipe/155/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Parana/192/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Minas_Gerais/239/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Sergipe/176/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bahia/97/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bahia/65/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Parana/199/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Sergipe/152/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bahia/45/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Sergipe/146/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bahia/44/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bahia/100/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Rio_de_Janeiro/27/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Bahia/98/2011">
+			<attr name="location">SouthAmerica</attr>
+		</taxon>
+		<taxon id="A/Ghana/FS-10-4745/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/31/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1707/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Tanzania/977/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Ghana/FS-10-3811/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Ghana/FS-526/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Cote-dIvoire/GR1542/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/6063/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/1696/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Cameroon/10v-4414/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/6075/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Ghana/FS-10-4801/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/078/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/34/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/80/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Madagascar/7480/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Tanzania/892/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Ghana/FS-376/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Kenya/091/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Madagascar/7142/2010">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/COSTA-RICA/2/2000">
+			<attr name="location">CentralAmerica</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/2/04">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/1/04">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Johannesburg/30/2004">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/Brisbane/04/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/10/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/South_Australia/355/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Darwin/4/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Perth/142/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/248/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Brisbane/602/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Christchurch/1/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Darwin/3/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Darwin/20/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/Victoria/500/2007">
+			<attr name="location">Oceania</attr>
+		</taxon>
+		<taxon id="A/JOHANNESBURG/67/2001">
+			<attr name="location">Africa</attr>
+		</taxon>
+		<taxon id="A/JOHANNESBURG/79/2001">
+			<attr name="location">Africa</attr>
+		</taxon>
+	</taxa>
+	<generalDataType id="geography">
+		<state code="USACanada"/>
+		<state code="SouthAmerica"/>
+		<state code="Europe"/>
+		<state code="India"/>
+		<state code="JapanKorea"/>
+		<state code="SoutheastAsia"/>
+		<state code="Oceania"/>
+		<state code="China"/>
+		<state code="CentralAmerica"/>
+		<state code="Africa"/>
+	</generalDataType>
+	<attributePatterns id="geoPatterns" attribute="location">
+		<generalDataType idref="geography"/>
+		<taxa idref="taxa"/>
+	</attributePatterns>
+	<empiricalTreeDistributionModel id="treeModel" fileName="h3_alt_sample.trees">
+		<taxa idref="taxa"/>
+	</empiricalTreeDistributionModel>	
+	
+	<statistic id="treeModel.currentTree" name="Current Tree">
+		<empiricalTreeDistributionModel idref="treeModel"/>
+	</statistic>	
+	<generalSubstitutionModel id="originModel" name="origin">
+		<generalDataType idref="geography"/>
+		<frequencies>
+			<frequencyModel id="geoFreqs" normalize="true">
+				<generalDataType idref="geography"/>
+				<frequencies>
+					<parameter id="geoFreqs.frequencies" dimension="10"/>
+				</frequencies>
+			</frequencyModel>
+		</frequencies>
+		<rates>
+			<parameter id="geoRates" dimension="90" value="1.0"/>
+		</rates>
+		<rateIndicator>
+			<parameter id="geoIndicators" dimension="90" value="1.0"/>
+		</rateIndicator>
+	</generalSubstitutionModel>
+	
+	<sumStatistic id="nonZeroRates" name="nonZeroRateCount" elementwise="true">
+		<parameter idref="geoIndicators"/>
+	</sumStatistic>
+	<siteModel id="geoSiteModel">
+		<substitutionModel>
+			<generalSubstitutionModel idref="originModel"/>
+		</substitutionModel>
+		<mutationRate>
+			<parameter id="geoSiteModel.mu" value="0.1" lower="0.0" upper="10.0"/>
+		</mutationRate>
+	</siteModel>
+	<ancestralTreeLikelihood id="geoTreeLikelihood">
+		<patterns idref="geoPatterns"/>
+		<treeModel idref="treeModel"/>
+		<siteModel idref="geoSiteModel"/>
+		<generalSubstitutionModel idref="originModel"/>
+	</ancestralTreeLikelihood>
+	<operators id="operators" optimizationSchedule="log">
+		<empiricalTreeDistributionOperator weight="1">
+			<empiricalTreeDistributionModel idref="treeModel"/>
+		</empiricalTreeDistributionOperator>		
+		<scaleOperator scaleFactor="0.75" weight="5">
+			<parameter idref="geoSiteModel.mu"/>
+		</scaleOperator>
+		<scaleOperator scaleFactor="0.75" weight="15" scaleAllIndependently="true" autoOptimize="true">
+			<parameter idref="geoRates"/>
+		</scaleOperator>
+		<bitFlipOperator weight="15">
+			<parameter idref="geoIndicators"/>
+		</bitFlipOperator>
+		<bitFlipInSubstitutionModelOperator scaleFactor="0.75" weight="15" autoOptimize="true">
+			<generalSubstitutionModel idref="originModel"/>
+			<parameter idref="geoSiteModel.mu"/>
+		</bitFlipInSubstitutionModelOperator>
+	</operators>
+	<mcmc id="mcmc" chainLength="12000000" autoOptimize="true" operatorAnalysis="h3_alt_geo.ops">
+		<posterior id="posterior">
+			<prior id="prior">
+				<cachedPrior>
+					<gammaPrior shape="1.0" scale="1.0" offset="0.0">
+						<parameter idref="geoRates"/>
+					</gammaPrior>
+					<parameter idref="geoRates"/>
+				</cachedPrior>
+				<exponentialPrior mean="1" offset="0">
+					<parameter idref="geoSiteModel.mu"/>
+				</exponentialPrior>
+				<exponentialPrior mean="10" offset="0">
+					<statistic idref="nonZeroRates"/>
+				</exponentialPrior>
+				<generalSubstitutionModel idref="originModel"/>
+			</prior>
+			<likelihood id="likelihood">
+				 <ancestralTreeLikelihood idref="geoTreeLikelihood"/>
+			</likelihood>
+		</posterior>
+		<operators idref="operators"/>		
+		
+		<log id="screenLog" logEvery="10000">
+			<column label="Posterior" dp="4" width="12">
+				<posterior idref="posterior"/>
+			</column>
+			<column label="Prior" dp="4" width="12">
+				<prior idref="prior"/>
+			</column>
+			<column label="Likelihood" dp="4" width="12">
+				<likelihood idref="likelihood"/>
+			</column>
+			<column label="nonZeroRates" sf="6" width="12">
+        		<sumStatistic idref="nonZeroRates"/>
+        	</column>			
+			<column label="clock.rate" sf="6" width="12">
+				<parameter idref="geoSiteModel.mu"/>
+			</column>
+		</log>
+		
+		<log id="fileLog" logEvery="10000" fileName="h3_alt_geo.log" overwrite="false">
+			<posterior idref="posterior"/>
+			<prior idref="prior"/>
+			<likelihood idref="likelihood"/>
+			<parameter idref="geoSiteModel.mu"/>
+			<sumStatistic idref="nonZeroRates"/>
+			<parameter idref="geoRates"/>
+			<parameter idref="geoIndicators"/>
+		</log>		
+			
+		<logTree id="treeFileLog" logEvery="100000" nexusFormat="true" fileName="h3_alt_geo.trees" sortTranslationTable="true">
+			<treeModel idref="treeModel"/>
+			<posterior idref="posterior"/>
+			<ancestralTreeLikelihood idref="geoTreeLikelihood"/>
+		</logTree>
+	</mcmc>		
+	<report>
+		<property name="timer">
+			<mcmc idref="mcmc"/>
+		</property>
+	</report>
+</beast>

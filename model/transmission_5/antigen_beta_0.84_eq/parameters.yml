@@ -1,0 +1,66 @@
+# This contains all the parameters used in the model.
+# These values correspond to defaults.
+# Leaving an entry out is fine, the value will remain at its default.
+
+                                            # simulation parameters
+burnin: 36500                               # days to wait before logging output 
+endDay: 43800                               # number of days to simulate
+deltaT: 0.1                                 # number of days to move forward in a single timestep
+printStep: 7                                # print to out.timeseries every X days
+tipSamplingRate: 0.0002                     # store X samples per deme per day
+tipSamplesPerDeme: 2000                     # cap number of samples per deme
+tipSamplingProportional: true               # whether to sample proportional to prevalence
+treeProportion: 0.1                         # proportion of tips to use in tree reconstruction
+diversitySamplingCount: 1000                # how many samples to draw to calculate diversity, netau and serial interval
+netauWindow: 100                            # window in days to calculate Ne*tau
+repeatSim: true                             # repeat simulation until endDay is reached?
+immunityReconstruction: false               # whether to print immunity reconstruction to out.immunity
+memoryProfiling: false                      # requires -javaagent:classmexer.jar to run
+yearsFromMK: 1.0                            # how many years to consider present when calculating MK
+pcaSamples: false                           # whether to rotate and flip virus tree
+detailedOutput: false                       # whether to output out.hosts and out.viruses files enabling checkpointing
+restartFromCheckpoint: false                # whether to load population from out.hosts
+
+                                            # metapopulation parameters
+demeCount: 3                                # number of demes
+demeNames: ["A", "B", "C"]                  # deme names
+initialNs: [15000000, 15000000, 15000000]      # inital deme population sizes
+    
+                                            # host parameters   
+birthRate: 0.000055                         # in births per individual per day, 1/50 years
+deathRate: 0.000055                         # in deaths per individual per day, 1/50 years
+swapDemography: true                        # whether to keep overall population size constant
+
+                                            # epidemiological parameters    
+initialI: 10                                # in individuals
+initialDeme: 1                              # index of deme where infection starts, 1..n
+initialPrR: 0.8                             # as proportion of population
+beta: 0.84                                  # in contacts per individual per day
+nu: 0.2                                     # in recoveries per individual per day
+betweenDemePro: 0.002                       # relative to within-deme beta
+
+                                            # transcendental parameters
+transcendental: false                       # whether to include a general recovered class
+immunityLoss: 0.01                          # in R->S per individual per day
+initialPrT: 0.1                             # initial faction in general recovered class
+        
+                                            # seasonal parameters           
+demeBaselines: [1., 1., 1.]                 # baseline of seasonality
+demeAmplitudes: [0., 0.15, 0.15]            # amplitude of seasonality
+demeOffsets: [0., 0.5, 0.]                  # seasonal offset relative to the year
+    
+                                            # phenotype parameters  
+phenotypeSpace: "geometric"                 # options include: geometric, geometric3d, geometric10d
+muPhenotype: 0.00035                        # in mutations per individual per day
+smithConversion: 0.07                       # multiplier to distance to give cross-immunity
+homologousImmunity: 0.95                    # immunity raised to antigenically identical virus
+initialTraitA: -3.                          # value in dimension 1 for initial host immunity
+meanStep: 0.3                               # mean mutation size
+sdStep: 0.3                                 # standard deviation of mutation size
+mut2D: false                                # whether to mutate in a full 360 degree arc
+
+adultToAdultModifier: 0.26
+adultToChildModifier: 0.21
+childToChildModifier: 1.00
+adultTravelModifier: 1.00
+childTravelModifier: 1.00

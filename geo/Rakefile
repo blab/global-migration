@@ -1,0 +1,309 @@
+# Rakefile to collate data and run BEAST phylogeographic analysis on seasonal influenza viruses
+# This requires sample trees files
+
+# Check version is 1.9 or later
+if RUBY_VERSION < "1.9"
+  raise "Invalid version, Ruby 1.9 or above required."
+end
+
+stems = [	
+		"h3_small", "h1_small", "vic_small", "yam_small", 
+		"h3_large", "h1_large", "vic_large", "yam_large"
+		]
+		
+regions = ["USACanada", "SouthAmerica", "Europe", "India", "NorthChina", "SouthChina", "JapanKorea", "SoutheastAsia", "Oceania"]
+
+require 'rake/clean'
+stems.each {|stem|
+	CLEAN.include("#{stem}_geo/#{stem}_geo.mcc")	
+	CLEAN.include("#{stem}_geo/in.trees")
+	CLEAN.include("#{stem}_geo/in.param")	
+	CLEAN.include("#{stem}_geo/out*")			
+	CLOBBER.include("#{stem}_geo/#{stem}_geo.xml")
+	CLOBBER.include("#{stem}_geo/figures/*")
+	CLOBBER.include("#{stem}_geo/stats/*")	
+}
+
+desc "Full compile"
+task :default => [:xmls, :trees, :stats, :trunks, :histories, :fsts, :subtrees]
+
+task :xmls => stems.map {|stem|
+	"#{stem}_geo/#{stem}_geo.xml"
+} 
+
+task :trees => stems.map {|stem|
+	"#{stem}_geo/out_all.rules"
+}
+
+task :stats => stems.map {|stem|
+	"#{stem}_geo/stats/#{stem}_geo_persistence.tsv"
+}
+
+task :trunks => stems.map {|stem|
+	"#{stem}_geo/out_trunk.skylines"
+}
+
+task :histories => stems.map {|stem|
+	"#{stem}_geo/out_hist.skylines"
+}
+
+task :fsts => stems.map {|stem|
+	"#{stem}_geo/out_fst.skylines"
+}
+
+task :subtrees => stems.map {|stem|
+	[
+		"#{stem}_geo/out_usa.rules", 
+		"#{stem}_geo/out_europe.rules", 		
+		"#{stem}_geo/out_schina.rules",
+		"#{stem}_geo/out_nchina.rules",
+		"#{stem}_geo/out_india.rules",
+		"#{stem}_geo/out_sa.rules",
+		"#{stem}_geo/out_jk.rules",	
+		"#{stem}_geo/out_oceania.rules",
+		"#{stem}_geo/out_seasia.rules"					
+	]
+}.flatten
+
+desc "Create directories"
+stems.each {|stem|
+	directory "#{stem}_geo"
+}
+
+desc "Create figure directories"
+stems.each {|stem|
+	directory "#{stem}_geo/figures"
+}
+
+desc "Create stats directories"
+stems.each {|stem|
+	directory "#{stem}_geo/stats"
+}
+
+desc "Produce XML files for BEAST phylogeography"
+stems.each {|stem|
+	type = stem.split("_")[0]
+	file "#{stem}_geo/#{stem}_geo.xml" => ["#{stem}_geo", "../data/#{type}/#{stem}.tsv", "scripts/beast-prep-geo-asym.rb", "#{stem}_geo/figures", "#{stem}_geo/stats"] do
+		sh "ruby scripts/beast-prep-geo-asym.rb ../data/#{type}/#{stem}.tsv #{stem}_sample.trees #{stem}_geo > #{stem}_geo/#{stem}_geo.xml"
+	end
+}
+
+desc "Produce MCC trees"
+stems.each {|stem|
+	file "#{stem}_geo/#{stem}_geo.mcc" => ["#{stem}_geo/#{stem}_geo.trees"] do
+		sh "treeannotator -burnin 20 #{stem}_geo/#{stem}_geo.trees #{stem}_geo/#{stem}_geo.mcc"
+	end
+}
+
+desc "Produce trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_all.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_tree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_tree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_all.rules"
+		Dir.chdir ".."		
+	end
+}
+
+def combined_persistence(stem, old_regions)
+	new_region = old_regions.join('_')
+	sh "cat #{stem}_geo/in_base.param params/in_stats.param > #{stem}_geo/in.param"
+	sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.trees 20 > #{stem}_geo/in.trees"
+	Dir.chdir "#{stem}_geo"
+	text = File.read("in.trees")
+	old_regions.each {|region|
+		text = text.gsub(/#{region}/, "combined_region")
+	}
+	File.open("in.trees", "w") {|file| file.puts text}
+	sh "pact"
+	text = File.read("out.stats")
+	replace = text.gsub(/^persistence_1.+\n/, "")		
+	replace = replace.gsub(/persistence_/, "")
+	replace = replace.gsub(/combined_region/, new_region)	
+	match = replace.match(/^(#{new_region}.+)/)[1]
+	File.open("stats/#{stem}_geo_persistence.tsv", "a") {|file| file.puts match}
+	Dir.chdir ".."			
+end
+
+desc "Produce persistence stats with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/stats/#{stem}_geo_persistence.tsv" => ["#{stem}_geo/#{stem}_geo.trees", "params/in_stats.param", "#{stem}_geo/in_base.param"] do
+		# standard analysis of most demes
+		sh "cat #{stem}_geo/in_base.param params/in_stats.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.trees 20 > #{stem}_geo/in.trees"	
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		text = File.read("out.stats")
+		replace = text.gsub(/^persistence_1.+\n/, "")		
+		replace = replace.gsub(/persistence_/, "")
+		File.open("stats/#{stem}_geo_persistence.tsv", "w") {|file| file.puts replace}
+		Dir.chdir ".."
+		# combined analyses		
+		(0...9).each {|index|
+			(index+1...9).each {|jndex|
+				regionA = regions[index]
+				regionB = regions[jndex]
+				puts "Combined persistence for #{regionA} and #{regionB}" 
+				combined_persistence(stem, [regionA, regionB])
+			}
+		}
+		regions.each {|region|		
+			combined_persistence(stem, ["NorthChina", "SouthChina", region])
+		}
+		combined_persistence(stem, ["NorthChina", "SouthChina", "India", "SoutheastAsia"])
+		combined_persistence(stem, ["NorthChina", "SouthChina", "India", "JapanKorea"])
+		combined_persistence(stem, ["NorthChina", "SouthChina", "India", "SoutheastAsia"])
+		combined_persistence(stem, ["NorthChina", "SouthChina", "SoutheastAsia", "JapanKorea"])
+		combined_persistence(stem, ["NorthChina", "SouthChina", "India", "SoutheastAsia", "JapanKorea"])
+		combined_persistence(stem, ["NorthChina", "SouthChina", "India", "SoutheastAsia", "USACanada"])		
+		combined_persistence(stem, ["India", "SoutheastAsia", "JapanKorea"])
+		combined_persistence(stem, ["USACanada", "SouthAmerica", "Europe", "JapanKorea"])
+		combined_persistence(stem, ["USACanada", "SouthAmerica", "Europe", "JapanKorea", "Oceania"])											
+	end
+}
+
+desc "Produce history skylines with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_hist.skylines" => ["#{stem}_geo/#{stem}_geo.trees", "params/in_hist.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_hist.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.trees 20 > #{stem}_geo/in.trees"			
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.skylines out_hist.skylines"
+		Dir.chdir ".."		
+	end
+}
+
+desc "Produce trunk skylines with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_trunk.skylines" => ["#{stem}_geo/#{stem}_geo.trees", "params/in_trunk.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_trunk.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.trees 20 > #{stem}_geo/in.trees"			
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.skylines out_trunk.skylines"
+		Dir.chdir ".."		
+	end
+}
+
+desc "Produce FST skylines with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_fst.skylines" => ["#{stem}_geo/#{stem}_geo.trees", "params/in_fst.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_fst.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.trees 20 > #{stem}_geo/in.trees"			
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.skylines out_fst.skylines"
+		Dir.chdir ".."		
+	end
+}
+
+desc "Produce USA trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_usa.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_usatree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_usatree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_usa.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce Europe trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_europe.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_europetree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_europetree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_europe.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce North China trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_nchina.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_nchinatree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_nchinatree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_nchina.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce South China trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_schina.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_schinatree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_schinatree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_schina.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce India trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_india.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_indiatree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_indiatree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_india.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce South America trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_sa.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_satree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_satree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_sa.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce Japan/Korea trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_jk.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_jktree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_jktree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_jk.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce Oceania trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_oceania.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_oceaniatree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_oceaniatree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_oceania.rules"
+		Dir.chdir ".."
+	end
+}
+
+desc "Produce Southeast Asia trees with PACT"
+stems.each {|stem|
+	file "#{stem}_geo/out_seasia.rules" => ["#{stem}_geo/#{stem}_geo.mcc", "params/in_seasiatree.param", "#{stem}_geo/in_base.param"] do
+		sh "cat #{stem}_geo/in_base.param params/in_seasiatree.param > #{stem}_geo/in.param"
+		sh "ruby scripts/beast-convert-names.rb #{stem}_geo/#{stem}_geo.mcc 0 > #{stem}_geo/in.trees"
+		Dir.chdir "#{stem}_geo"
+		sh "pact"
+		sh "cp out.rules out_seasia.rules"
+		Dir.chdir ".."
+	end
+}

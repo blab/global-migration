@@ -1,0 +1,135 @@
+# Rakefile to prepare BEAST phylogeographic analysis on seasonal influenza viruses
+# This begins after running rake from the data directory
+
+# Run BEAST with
+# beast -beagle_sse -beagle_scaling dynamic FILE.xml
+
+# Used logcombiner to "manually" combine separate h3_large runs with the following commands:
+# logcombiner -burnin 410000000 -resample 100000 h3_large_tree/h3_large_tree.log h3_large_tree_run2/h3_large_tree.log h3_large_tree_combined/h3_large_sample.log
+# logcombiner -trees -burnin 410000000 -resample 1000000 h3_large_tree/h3_large_tree.trees h3_large_tree_run2/h3_large_tree.trees h3_large_tree_combined/h3_large_sample.trees
+
+# Check version is 1.9 or later
+if RUBY_VERSION < "1.9"
+  raise "Invalid version, Ruby 1.9 or above required."
+end
+
+module Rake
+	class FileTask
+
+		def update_timestamp
+			t = Rake::EARLY
+			#puts name + "\t" + t.to_s
+			@prerequisites.each { |n|
+				pt = application[n, @scope].timestamp
+				#puts n + "\t" + pt.to_s
+				if pt > t
+					t = pt
+				end
+			}
+			#puts name + "\t" + t.to_s
+			File.utime(t,t,name.to_s)
+		end
+
+		alias_method :original_execute, :execute
+		def execute(args=nil)
+			original_execute(args)
+			update_timestamp
+		end
+
+	end
+end
+
+stems =	[
+		"h3_small", "h1_small", "vic_small", "yam_small", 
+		"h1_large", "vic_large", "yam_large",
+		]
+
+full_stems = stems + ["h3_large"]
+
+require 'rake/clean'
+full_stems.each {|stem|
+	CLEAN.include("#{stem}_tree/in.trees")
+	CLEAN.include("#{stem}_tree/out.skylines")
+	CLEAN.include("#{stem}_tree/out.tips")	
+	CLOBBER.include("#{stem}_tree/#{stem}_sample.log")
+	CLOBBER.include("#{stem}_tree/#{stem}_sample.trees")	
+	CLOBBER.include("#{stem}_tree/#{stem}_tree.xml")
+}
+
+desc "Full compile"
+task :default => [:xmls, :logs, :trees, :skylines]
+
+task :xmls => full_stems.map {|stem|
+	"#{stem}_tree/#{stem}_tree.xml"
+} 
+
+task :logs => stems.map {|stem|
+	"#{stem}_tree/#{stem}_sample.log"
+} 
+
+task :trees => stems.map {|stem|
+	"#{stem}_tree/#{stem}_sample.trees"
+} 
+
+task :skylines => full_stems.map {|stem|
+	"#{stem}_tree/out.skylines"
+} 
+
+task :tips => full_stems.map {|stem|
+	"#{stem}_tree/out.tips"
+} 
+
+desc "Create directories"
+stems.each {|stem|
+	directory "#{stem}_tree"
+}
+
+desc "Produce tree XML files"
+full_stems.each {|stem|
+	type = stem.split("_")[0]
+	file "#{stem}_tree/#{stem}_tree.xml" => ["../data/#{type}/#{stem}.tsv", "scripts/beast-prep-precisions.rb"] do |t|
+		input = t.prerequisites[0]
+		script = t.prerequisites[1]
+		sh "ruby #{script} #{input} #{stem}_tree > #{t.name}"
+	end
+}
+
+desc "Reduce log files"
+stems.map {|stem|
+	file "#{stem}_tree/#{stem}_sample.log" => ["#{stem}_tree/#{stem}_tree.log", "scripts/reduce.rb"] do 
+		sh "ruby scripts/reduce.rb #{stem}_tree/#{stem}_tree.log 100000000 600000000 500000 > #{stem}_tree/#{stem}_sample.log"
+	end
+}
+
+desc "Reduce tree files"
+stems.map {|stem|
+	file "#{stem}_tree/#{stem}_sample.trees" => ["#{stem}_tree/#{stem}_tree.trees", "scripts/reduce.rb"] do 
+		sh "ruby scripts/reduce.rb #{stem}_tree/#{stem}_tree.trees 100000000 600000000 5000000 > #{stem}_tree/#{stem}_sample.trees"
+	end	
+}
+
+desc "Produce in.trees"
+full_stems.each {|stem|
+	file "#{stem}_tree/in.trees" => ["#{stem}_tree/#{stem}_sample.trees"] do
+		sh "ruby scripts/beast-convert-names.rb #{stem}_tree/#{stem}_sample.trees 0 > #{stem}_tree/in.trees"
+	end
+}
+
+
+desc "Produce skylines with PACT"
+full_stems.each {|stem|
+	file "#{stem}_tree/out.skylines" => ["#{stem}_tree/in.trees", "#{stem}_tree/in.param"] do
+		Dir.chdir "#{stem}_tree"
+		sh "pact"
+		Dir.chdir ".."		
+	end
+}
+
+desc "Produce tips file with PACT"
+full_stems.each {|stem|
+	file "#{stem}_tree/out.tips" => ["#{stem}_tree/in.trees", "#{stem}_tree/in.param"] do
+		Dir.chdir "#{stem}_tree"
+		sh "pact"
+		Dir.chdir ".."		
+	end
+}
