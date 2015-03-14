@@ -1,0 +1,10 @@
+methods-and-extended-data.pdf
+supplementary-information.pdf
+
+# LaTeX intermediaries #
+########################
+*.aux
+*.log
+*.bbl
+*.blg
+*.out

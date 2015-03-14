@@ -1,0 +1,231 @@
+\documentclass[11pt,oneside,letterpaper]{article}
+
+% graphicx package, useful for including eps and pdf graphics
+\usepackage{graphicx}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg}
+
+% basic packages
+\usepackage{color} 
+\usepackage{parskip}
+\usepackage{float}
+
+% urls
+\usepackage[hyphens]{url}
+\urlstyle{sf}
+
+% text layout
+\usepackage{geometry}
+%\geometry{textwidth=15.25cm} % 15.25cm for single-space, 16.25cm for double-space
+%\geometry{textheight=22cm} % 22cm for single-space, 22.5cm for double-space
+\geometry{textwidth=16.5cm} % for Nature
+\geometry{textheight=22.75cm} 
+
+% helps to keep figures from being orphaned on a page by themselves
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+
+% bold the 'Figure #' in the caption and separate it with a period
+% Captions will be left justified
+\usepackage[labelfont=bf,labelsep=period,font=small]{caption}
+
+% review layout with double-spacing
+%\usepackage{setspace} 
+%\doublespacing
+%\captionsetup{labelfont=bf,labelsep=period,font=doublespacing}
+
+% cite package, to clean up citations in the main text. Do not remove.
+\usepackage[superscript, nomove]{cite}
+%\renewcommand\citeleft{(}
+%\renewcommand\citeright{)}
+%\renewcommand\citeform[1]{\textsl{#1}}
+
+% Remove brackets from numbering in list of References
+\renewcommand\refname{\large References}
+\makeatletter
+\renewcommand{\@biblabel}[1]{\quad#1.}
+\makeatother
+
+\usepackage{authblk}
+\renewcommand\Authands{ \& }
+\renewcommand\Authfont{\normalsize \bf}
+\renewcommand\Affilfont{\small \normalfont}
+\makeatletter
+\renewcommand\AB@affilsepx{, \protect\Affilfont}
+\makeatother
+
+% notation
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}			% Fig S1, S2, etc...
+\renewcommand{\thetable}{S\arabic{table}}			% Table S1, S2, etc...
+
+\let\oldthebibliography=\thebibliography
+\let\oldendthebibliography=\endthebibliography
+\renewenvironment{thebibliography}[1]{%
+    \oldthebibliography{#1}%
+    \setcounter{enumiv}{41}%
+}{\oldendthebibliography}
+
+%%% TITLE %%%
+\title{\vspace{1.0cm} \Large \bf 
+Supplementary Information:\\
+Global circulation patterns of seasonal influenza viruses vary with antigenic drift
+}
+
+\author[1]{Trevor Bedford}
+\author[2,3]{Steven Riley}
+\author[4]{Ian G. Barr}
+\author[5]{Shobha Broor}
+\author[6]{Mandeep Chadha}
+\author[7]{Nancy J. Cox}
+\author[8]{Rodney S. Daniels}
+\author[9]{C. Palani Gunasekaran}
+\author[4,10]{Aeron C. Hurt}
+\author[4]{Anne Kelso}
+\author[7]{Alexander Klimov}
+\author[11]{Nicola S. Lewis}
+\author[12]{Xiyan Li}
+\author[8]{John W. McCauley}
+\author[13]{Takato Odagiri}
+\author[6]{Varsha Potdar}
+\author[3,14,15]{Andrew Rambaut}
+\author[12]{Yuelong Shu}
+\author[11]{Eugene Skepner}
+\author[11,16]{Derek J. Smith}
+\author[17,18,19]{Marc A. Suchard}
+\author[13]{Masato Tashiro}
+\author[12]{Dayan Wang}
+\author[7]{Xiyan Xu}
+\author[20]{Philippe Lemey}
+\author[21]{Colin A. Russell}
+
+\affil[1]{Vaccine and Infectious Disease Division, Fred Hutchinson Cancer Research Center, Seattle, WA, USA}
+\affil[2]{Department of Infectious Disease Epidemiology, Imperial College London, London, UK}
+\affil[3]{Fogarty International Center, National Institutes of Health, Bethesda, MD, USA}
+\affil[4]{World Health Organization (WHO) Collaborating Centre for Reference and Research on Influenza, Melbourne, Australia}
+\affil[5]{SGT Medical College, Hospital and Research Institute, Village Budhera, District Gurgaon, Haryana, India}
+\affil[6]{National Institute of Virology, Pune, India}
+\affil[7]{WHO Collaborating Center for Influenza, Centers for Disease Control and Prevention, Atlanta, GA, USA}
+\affil[8]{WHO Collaborating Centre for Influenza, National Institute for Medical Research (NIMR), London, UK}
+\affil[9]{King Institute of Preventive Medicine and Research, Guindy, Chennai, India}
+\affil[10]{Melbourne School of Population and Global Health, University of Melbourne, Parkville VIC 3010, Australia}
+\affil[11]{Department of Zoology, University of Cambridge, Cambridge, UK}
+\affil[12]{WHO Collaborating Center for Influenza, China Centers for Disease Control, Beijing, China}
+\affil[13]{WHO Collaborating Center for Influenza, National Institute for Infectious Diseases, Tokyo, Japan}
+\affil[14]{Institute of Evolutionary Biology, University of Edinburgh, Edinburgh, UK}
+\affil[15]{Centre for Immunology, Infection and Evolution, University of Edinburgh, Edinburgh, UK}
+\affil[16]{Department of Viroscience, Erasmus Medical Center, Rotterdam, The Netherlands}
+\affil[17]{Department of Biostatistics, UCLA Fielding School of Public Health, University of California, Los Angeles CA, USA}
+\affil[18]{Department of Biomathematics David Geffen School of Medicine at UCLA, University of California, Los Angeles, CA, USA}
+\affil[19]{Department of Human Genetics, David Geffen School of Medicine at UCLA, University of California, Los Angeles, CA, USA}
+\affil[20]{Department of Microbiology and Immunology, Rega Institute, KU Leuven -- University of Leuven, Leuven, Belgium}
+\affil[21]{Department of Veterinary Medicine, University of Cambridge, Cambridge, UK}
+
+
+\date{}
+
+\begin{document}
+
+\maketitle
+\pagebreak
+
+\section*{Supplementary Discussion}
+
+\subsection*{Sensitivity analyses}
+
+We further confirmed our phylogeographic results by analyzing $F_{ST}$ (a measure of population heterogeneity\cite{Weir84}) across viruses, finding that H3N2 shows less geographic population structure than H1N1 or B viruses (Extended Data Table 1).
+Crucially, $F_{ST}$ does not depend on phylogeographic reconstruction and instead compares genealogical diversity between isolates from the same geographic region to genealogical diversity between isolates from different geographic regions, so that $F_{ST} = (\pi_b - \pi_w) / \pi_b$, where $\pi_w$ represents within-region genealogical diversity and $\pi_b$ represents between-region genealogical diversity.
+
+In our primary analyses we used approximately twice as many H3N2 viruses as H1N1 or B viruses, largely due to the greater availability of H3N2 sequence data.
+To assess the robustness of our results to sampling patterns and numbers of sequences used, we repeated our entire analysis pipeline with smaller datasets (1241 to 1394 viruses) designed to have similar sample counts in each region for each virus.
+This was accomplished by sampling at most 14 sequences per region per year (13 for USA/Canada) for H3N2, 30 sequences per region per year (28 for USA/Canada) for H1N1, 30 sequences per region per year (24 for USA/Canada) for Vic and 40 sequences per region per year (25 for USA/Canada) for Yam from the full datasets (9139 H3N2, 3789 H1N1, 2577 Vic and 1821 Yam sequences). 
+This resulted in 1391 H3N2 sequences, 1372 H1N1 sequences, 1394 Vic sequences and 1240 Yam sequences with approximately 100--180 sequences per region.
+Even with substantially altered sample sizes we obtained results highly consistent with the primary analysis, with mean persistence estimates differing by at most 8\% compared with the primary dataset (Extended Data Table 2).
+The biggest difference in the secondary analysis was the degree of certainty, i.e. posterior probability, in H3N2 trunk location through time (Extended Data g.~2).
+With reduced sample size, there was less certainty, e.g.\ 2006 was not assigned confidently to any one location in the smaller secondary dataset, while it was assigned confidently to India in the larger primary dataset (93\% posterior probability).
+In this case, the larger dataset contained Indian samples that lay very close to the trunk of the phylogeny that were absent in the smaller dataset.
+We did not observe substantive conflict in these sensitivity analyses, i.e.\ no region was confidently identified as a source in the smaller dataset and then a different region in the large dataset; suggesting that our statistical approach was robust to the sampling strategies we employed.
+
+The analyses were also repeated with an alternative geographic assignment of sequences to 10 distinct regions: USA/Canada, South America, Europe, India, Japan/Korea, Southeast Asia, Oceania, China, Central America and Africa.
+Here, subsampling resulted in 1967 H3N2 sequences, 1439 H1N1 sequences, 1756 Vic sequences and 1223 Yam sequences.
+Extended Data Table 2 shows summary statistics for primary, secondary and alternative datasets with highly consistent results regardless of the sampling strategy used.
+The secondary and alternative datasets gave highly similar results to the primary analysis with H1N1 and influenza B showing substantially more regional persistence and population structure than H3N2.
+Persistence estimates differ by at most 20\% between primary, secondary and alternative datasets and $F_{ST}$ estimates differ by at most 6\% between datasets.
+Results were also robust to specific choice of prior distribution for phylogeographic rate parameters.
+
+\subsection*{Defining regional persistence}
+
+Regional persistence is defined here as continuous circulation of specific genetic variants (lineages) of a particular virus.
+It is necessary to specify persistence of ``genetic variants'' as most regions of the world that have good surveillance will collect influenza viruses in most, if not all, months of each year.
+These inter-epidemic viruses will often be antigenically similar to viruses that caused the previous local epidemic.
+Thus, purely on epidemiological or antigenic data, one might infer continuous circulation of viruses in many regions.
+However, we have previously shown for H3N2 viruses$^1$ that these inter-epidemic isolates are always as closely related, or more, to viruses circulating in other parts of the world than to viruses from the previous local epidemic.
+This suggests that genetic variants go extinct locally at the end of an epidemic and viruses collected between epidemics were more likely to be the product of short-lived external introductions.
+Our results in the present study corroborate these patterns for H3N2 viruses, but we find evidence that genetic variants (lineages) of H1N1, Vic, and Yam viruses circulated continuously after local epidemics and subsequently seeded epidemics in the same location.
+
+\subsection*{Persistence time estimates for combined regions}
+
+Defining optimal epidemiological regions for seasonal influenza viruses remains challenging and necessarily subjective.
+As stated in the Methods section, nine regions were defined to maximize available sequences within each region while still providing enough geographic diversity to ensure nearly global coverage.
+In our primary analyses, China was split into North China and South China owing to the wealth of available sequence data and because of potential differences in virus seasonality and circulation between North and South China \cite{Yu13}.
+
+When estimating average persistence times for H3N2 viruses (Fig.~2), we found similar durations of persistence of less than one year for most regions of the world, including North China (0.53 years) and South China (0.50 years).
+However, the estimated persistence time for North and South China combined (1.27 years) was substantially greater than for North or South China alone, suggesting that virus persistence was enabled by movement of viruses between North and South China.
+To investigate the effect of combining other regions, we estimated the mean persistence times for all pairs of regions from our primary phylogeographic analyses.
+Extended Data Figure 6a shows persistence times for combined pairs of regions.
+Here, the diagonals of each panel are equivalent to the points in Figure 2 and show the mean persistence times within each region (plus China) for all four viruses.
+For H3N2 viruses, combining most region pairs did very little, if anything, to increase persistence, except for North and South China as mentioned above.
+
+Expanding beyond pairs of regions for H3N2 viruses, combining North China, South China and Southeast Asia gave a mean persistence time of 1.50 years, longer than the 1.26 years estimated for North and South China combined.
+Collectively, North China, South China, Southeast Asia, India, and Japan/Korea gave a mean persistence time of 2.61 years.
+However, excluding China from this group (leaving Southeast Asia, India, and Japan/Korea) gave a persistence estimate of 0.78 years, highlighting the importance of China for the evolution and circulation of H3N2 viruses.
+For comparison, combining regions outside of Asia shows a much smaller signature of joint persistence (persistence estimated for USA, Canada, South America, Europe and Oceania was 1.06 years).
+
+For H1N1 viruses, joint persistence estimates for most region pairs highlight the substantial contributions of India to mean durations of H1N1 persistence (Extended Data Fig.~6a).
+Similarly, North and South China, along with Southeast Asia, Japan and Korea, jointly contribute to H1N1 persistence in East and Southeast Asia (combined persistence estimate of 2.59 years).
+For the B viruses, joint estimates of persistence times highlight contributions by India and China to duration of persistence of viruses in all regions (Extended Data Fig.~6a).
+Additionally, the joint persistence estimates for North and South America for Vic and Yam viruses suggest that B virus persistence in the Americas could have arisen from movement between North and South America (combined persistence estimates of 1.90 years for Vic and 1.57 years for Yam).
+
+Generally, our analyses suggest that the nine regions used in the primary analyses, with the possible exception of North and South China, could be considered epidemiologically distinct entities, particularly for H3N2 viruses.
+Genetic population structure is clearly evident across these regions and ancestry patterns show clear geographic structuring.
+However, our analyses do not indicate that the specific partitioning considered here is the single optimal epidemiological or genetic partitioning of this complex geographic structure and there remains some ambiguity regarding the definition of meaningful epidemiological regions.  
+Regardless, the regions considered here provide a useful frame of reference to compare influenza viruses.
+
+\subsection*{Disease dynamics and persistence}
+
+In the epidemiological model, within deme persistence times were affected by rates of antigenic evolution and by amplitude of seasonal forcing, $\epsilon$ (Extended Data Fig.~8).
+At high amplitudes of seasonal forcing, within-deme persistence was rare for all rates of antigenic evolution.
+However, at low amplitudes of seasonal forcing, rates of antigenic evolution had strong effects: slow evolution resulted in long (i.e.\ $\sim$2 years) within-deme persistence while rapid evolution resulted in substantially reduced within-deme persistence (i.e.\ $\sim$1 year).
+For $\epsilon = 0.00$, we find a linear relationship where 1 additional unit/year of antigenic drift results in a decrease of average persistence by 1.21 years ($P = 0.0002$), while for $\epsilon = 0.04$, we find a linear relationship where 1 additional unit/year of antigenic drift results in a decrease of average persistence by 0.71 years ($P = 0.00006$).
+
+In the model, amplitudes of seasonal forcing and rates of antigenic evolution directly affect $R_{t}$.
+High amplitudes of seasonal forcing and rapid evolution result in relatively short but intense epidemics followed by local extinction.
+Conversely, low amplitudes of seasonal forcing and slow evolution result in small epidemics that slowly deplete the susceptible population and thus epidemics have the potential to continue outside of the influenza season giving rise to persistent lineages.
+Low amplitudes of seasonal forcing and rapid evolution result in epidemics of intermediate size and duration that are frequently followed by local extinction.
+The variations in amplitude of seasonality from our model appear to be inline with recently described patterns of influenza virus epidemiology in China \cite{Yu13} where there are strong latitudinal gradients in amplitude of annual epidemic periodicity with substantially weaker periodicity in southern latitudes.
+
+\subsection*{Virological differences}
+
+In swine, H3N2 viruses evolve very slowly antigenically despite accumulating genetic mutations at roughly the same rate as H3N2 viruses in humans\cite{deJong07}.
+Ecological differences between humans and pigs, particularly the relatively short lifespan of pigs and thus potential lack of immune pressure to drive evolution, are likely to be the cause of evolutionary differences.
+Similarly, given that influenza H1N1 and B viruses primarily infect children, and children are likely to exert less immune pressure than adults, epidemiology potentially shapes virus evolution.
+Influenza B viruses have a higher fidelity polymerase than influenza A viruses$^{21}$, which results in slower rates of synonymous evolution (Extended Data Table 1) and fewer opportunities for antigenic change.
+Influenza B viruses induce a weaker humoral immune response as measured by hemagglutination inhibition titer than influenza A viruses$^{22}$.
+Also, influenza B viruses have lower receptor binding affinity than A viruses$^{23}$ which might compromise their ability to evolve antigenically$^{24}$.
+
+\subsection*{Sequence data limitations}
+
+For this study, we focused exclusively on the influenza HA as it is the focus of surveillance efforts for the WHO GISRS since HA is the primary target of the human immune response and it is therefore the gene segment for which most data exists.
+Studies based on whole genome sequences are likely to provide insights into the genesis and spread of reassortant viruses and the co-circulation of multiple lineages.
+The continued expansion of whole genome sequencing will offer additional markers for tracking the global movement of viruses and give opportunities to compare migration patterns of HA with those of other segments.
+In this study, we lacked data from Africa, Central America, and the Middle East and their roles in the global circulation of seasonal influenza viruses are yet to be determined.
+Further work is also needed to understand why some influenza B genetic variants persist for multiple years in some regions and not others.
+
+%%% REFERENCES %%%
+\bibliographystyle{naturemag}
+\bibliography{supplement}
+
+\end{document}
