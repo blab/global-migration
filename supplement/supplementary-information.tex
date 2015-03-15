@@ -141,20 +141,21 @@ To assess the robustness of our results to sampling patterns and numbers of sequ
 This was accomplished by sampling at most 14 sequences per region per year (13 for USA/Canada) for H3N2, 30 sequences per region per year (28 for USA/Canada) for H1N1, 30 sequences per region per year (24 for USA/Canada) for Vic and 40 sequences per region per year (25 for USA/Canada) for Yam from the full datasets (9139 H3N2, 3789 H1N1, 2577 Vic and 1821 Yam sequences). 
 This resulted in 1391 H3N2 sequences, 1372 H1N1 sequences, 1394 Vic sequences and 1240 Yam sequences with approximately 100--180 sequences per region.
 Even with substantially altered sample sizes we obtained results highly consistent with the primary analysis, with mean persistence estimates differing by at most 8\% compared with the primary dataset (Extended Data Table 2).
-The biggest difference in the secondary analysis was the degree of certainty, i.e. posterior probability, in H3N2 trunk location through time (Extended Data g.~2).
+The biggest difference in the secondary analysis was the degree of certainty, i.e. posterior probability, in H3N2 trunk location through time (Extended Data Table 2).
 With reduced sample size, there was less certainty, e.g.\ 2006 was not assigned confidently to any one location in the smaller secondary dataset, while it was assigned confidently to India in the larger primary dataset (93\% posterior probability).
 In this case, the larger dataset contained Indian samples that lay very close to the trunk of the phylogeny that were absent in the smaller dataset.
-We did not observe substantive conflict in these sensitivity analyses, i.e.\ no region was confidently identified as a source in the smaller dataset and then a different region in the large dataset; suggesting that our statistical approach was robust to the sampling strategies we employed.
+We observed no occurrences of conflicting support in assignment of the source region, i.e.\ where one dataset supported one region and the other dataset supported a different region as source; suggesting that our statistical approach was robust to the sampling strategies we employed.
 
 The analyses were also repeated with an alternative geographic assignment of sequences to 10 distinct regions: USA/Canada, South America, Europe, India, Japan/Korea, Southeast Asia, Oceania, China, Central America and Africa.
 For this geographic breakdown, subsampling resulted in 1967 H3N2 sequences, 1439 H1N1 sequences, 1756 Vic sequences and 1223 Yam sequences.
 Extended Data Table 2 shows summary statistics for primary, secondary and alternative datasets with highly consistent results regardless of the sampling strategy used.
 The secondary and alternative datasets gave highly similar results to the primary analysis with H1N1 and influenza B showing substantially more regional persistence and population structure than H3N2.
-Persistence estimates differed by at most 20\% between primary, secondary and alternative datasets and $F_{ST}$ estimates differed by at most 6\% between datasets.
-Results were also robust to specific choice of prior distribution for phylogeographic rate parameters.
+Persistence estimates differed by at most 20\% between primary, secondary and alternative datasets.
 
 We further confirmed our phylogeographic results by analyzing $F_{ST}$ (a measure of population heterogeneity\cite{Weir84}) across viruses, finding that H3N2 shows less geographic population structure than H1N1 or B viruses (Extended Data Table 1).
-Crucially, $F_{ST}$ does not depend on phylogeographic reconstruction and instead compares genealogical diversity between isolates from the same geographic region to genealogical diversity between isolates from different geographic regions, so that $F_{ST} = (\pi_b - \pi_w) / \pi_b$, where $\pi_w$ represents within-region genealogical diversity and $\pi_b$ represents between-region genealogical diversity.
+Crucially, $F_{ST}$ does not depend on phylogeographic reconstruction and instead compares genealogical diversity between isolates from the same geographic region to genealogical diversity between isolates from different geographic regions, so that $F_{ST} = (\pi_b - \pi_w) / \pi_b$, where $\pi_w$ represents within-region genealogical diversity and $\pi_b$ represents between-region genealogical diversity. $F_{ST}$ estimates were also highly consistent across datasets (Extended Data Table 2).
+
+Results were also robust to specific choice of prior distribution for phylogeographic rate parameters.
 
 \subsection*{Defining regional persistence}
 
@@ -172,11 +173,11 @@ Defining optimal epidemiological regions for seasonal influenza viruses remains 
 As stated in the Methods section, nine regions were defined to maximize available sequences within each region while still providing enough geographic diversity to ensure nearly global coverage.
 In our primary analyses, China was split into North China and South China owing to the wealth of available sequence data and because of potential differences in virus seasonality and circulation between North and South China \cite{Yu13}.
 
-When estimating average persistence times for H3N2 viruses (Fig.~2), we found similar durations of persistence of less than one year for most regions of the world, including North China (0.53 years) and South China (0.50 years).
+When estimating average persistence times for H3N2 viruses (Fig.~1), we found similar durations of persistence of less than one year for most regions of the world, including North China (0.53 years) and South China (0.50 years).
 However, the estimated persistence time for North and South China combined (1.27 years) was substantially greater than for North or South China alone, suggesting that virus persistence was enabled by movement of viruses between North and South China.
 To investigate the effect of combining other regions, we estimated the mean persistence times for all pairs of regions from our primary phylogeographic analyses.
 Extended Data Figure 6a shows persistence times for combined pairs of regions.
-Here, the diagonals of each panel are equivalent to the points in Figure 2 and show the mean persistence times within each region (plus China) for all four viruses.
+Here, the diagonals of each panel are equivalent to the point estimates in Figure 1 and show the mean persistence times within each region (plus China) for all four viruses.
 For H3N2 viruses, combining most region pairs did very little, if anything, to increase persistence, except for North and South China as mentioned above.
 
 Expanding beyond pairs of regions for H3N2 viruses, combining North China, South China and Southeast Asia gave a mean persistence time of 1.50 years, longer than the 1.26 years estimated for North and South China combined.
@@ -196,7 +197,7 @@ Regardless, the regions considered here provide a useful frame of reference to c
 
 \subsection*{Disease dynamics and persistence}
 
-In the epidemiological model, within deme persistence times were affected by rates of antigenic evolution and by amplitude of seasonal forcing, $\epsilon$ (Extended Data Fig.~8).
+In the epidemiological model, within deme persistence times were affected by rates of antigenic evolution and by amplitude of seasonal forcing, $\epsilon$ (Extended Data Fig.~8a).
 At high amplitudes of seasonal forcing, within-deme persistence was rare for all rates of antigenic evolution.
 However, at low amplitudes of seasonal forcing, rates of antigenic evolution had strong effects: slow evolution resulted in long (i.e.\ $\sim$2 years) within-deme persistence while rapid evolution resulted in substantially reduced within-deme persistence (i.e.\ $\sim$1 year).
 For $\epsilon = 0.00$, we found a linear relationship where 1 additional unit/year of antigenic drift results in a decrease of average persistence by 1.21 years ($P = 0.0002$), while for $\epsilon = 0.04$, we found a linear relationship where 1 additional unit/year of antigenic drift results in a decrease of average persistence by 0.71 years ($P = 0.00006$).
@@ -221,19 +222,19 @@ Second, influenza B viruses induce a weaker humoral immune response as measured 
 Third, influenza B viruses have lower receptor binding affinity than A viruses$^{23}$ which might compromise their ability to evolve antigenically$^{24}$.
 
 Other recent studies have highlighted other potential evolutionary constraints on virus evolution that are likely to be more strongly mediated by virological than epidemiological factors.
-Koelle et al.\ \cite{Koelle06} put forth an elegant hypothesis regarding the evolution of influenza viruses along neutral networks where one of the constraints to antigenic change is the accessibility of substitutions that alter antigenic phenotype.
+Koelle et al.\ \cite{Koelle06} put forth an elegant hypothesis regarding the evolution of influenza viruses along neutral networks where antigenic change is limited by the accessibility of substitutions that simultaneously alter antigenic phenotype while preserving protein function.
 Koel et al.\ \cite{Koel13} found that single amino acid substitutions at 7 positions near the receptor-binding site were capable of causing antigenic cluster transitions.
-They hypothesized that given the frequency at which these substitutions were likely to occur given polymerase fidelity alone, the lack of regular appearance of new antigenic variants and relatively infrequent changes in these 7 positions was due to an intrinsic fitness cost (changes in replication, receptor binding) for the virus to make these changes -- immune suppression not being the limiting factor.
+They hypothesized that given the frequency at which these substitutions were likely to occur given polymerase fidelity alone, the lack of regular appearance of new antigenic variants and relatively infrequent changes in these 7 positions was due to an intrinsic fitness cost (changes in replication, receptor binding) for the virus to make these changes.
 One key finding from Koel et al.\ \cite{Koel13} is that the introduction of specific substitutions at these 7 positions in some viruses lead to the inability to rescue those viruses.
 This suggests that these antigenic-change inducing substitutions can intrinsically cripple a virus and thus viruses are not `free' to vary.
 Importantly, these factors could easily differ among viruses.
-The findings of Koelle et al and Koel et al are also very much inline with recent work from Gong, Suchard, and Bloom \cite{Gong13} showing that epistasis is a critical limiting factor in the evolution of influenza virus nucleoprotein.
+The findings of Koelle et al.\ \cite{Koelle06} and Koel et al.\ \cite{Koel13} are also very much inline with recent work from Gong, Suchard, and Bloom \cite{Gong13} showing that epistasis is a critical limiting factor in the evolution of influenza virus nucleoprotein.
 
 
 
 \subsection*{Sequence data limitations}
 
-For this study, we focused exclusively on the influenza HA. HA is the primary target of the human immune response, the primary component of influenza virus vaccines, the main focus of most seasonal influenza virus surveillance efforts, and thus it is therefore the gene segment for which most data exists.
+For this study, we focused exclusively on the influenza HA, as HA is the primary target of the human immune response, the primary component of influenza virus vaccines and the main focus of most seasonal influenza virus surveillance efforts, it is therefore the gene segment for which most sequence data exists.
 Studies based on whole genome sequences are likely to provide insights into the genesis and spread of reassortant viruses and the co-circulation of multiple lineages.
 The continued expansion of whole genome sequencing will offer additional markers for tracking the global movement of viruses.
 In this study, we lacked data from Africa, Central America, and the Middle East and their roles in the global circulation of seasonal influenza viruses are yet to be determined.
