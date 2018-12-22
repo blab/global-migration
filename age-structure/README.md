@@ -40,7 +40,7 @@ The air travel data (combined with population demography) suggests that children
 
 ## Mixing
 
-[Mossong et al. (2008)](http://dx.doi.org/10.1371/journal.pmed.0050074) give contact rates between people of different ages in Europe.  [Rohani et al. (2009)](http://dx.doi.org/10.1126/science.1194134) show that this contact matrix works extremely well for modeling pertussis.  
+[Mossong et al. (2008)](https://doi.org/10.1371/journal.pmed.0050074) give contact rates between people of different ages in Europe.  [Rohani et al. (2009)](https://doi.org/10.1126/science.1194134) show that this contact matrix works extremely well for modeling pertussis.  
 
 This matrix suggests that adults contact adults at 26% of the rate that children contact children and that children contact adults (and vice versa) at 21% the rate that children contact children.
 
